@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroung">
+
+    <EditText
+        android:id="@+id/editText6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="53dp"
+        android:ems="10"
+        android:background="@drawable/editable_shape"
+        android:hint="Doctor name"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editText9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editText6"
+        android:layout_alignStart="@+id/editText6"
+        android:layout_marginTop="15dp"
+        android:ems="10"
+        android:background="@drawable/editable_shape"
+        android:hint="Degree"
+        android:inputType="textPersonName" />
+
+    <!--<EditText
+        android:id="@+id/editText10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/editText9"
+        android:layout_below="@+id/editText9"
+        android:ems="10"
+        android:hint="Specialization"
+        android:inputType="textPersonName" />
+-->
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="121dp"
+        android:background="@android:color/background_dark"
+        android:onClick="save"
+
+        android:text="Save"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF" />
+
+    <EditText
+        android:id="@+id/editText11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/spinner3"
+        android:layout_alignStart="@+id/spinner3"
+        android:layout_marginTop="15dp"
+        android:ems="10"
+        android:background="@drawable/editable_shape"
+        android:hint=" dr email"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/editText12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editText11"
+        android:layout_alignStart="@+id/editText11"
+        android:layout_marginTop="15dp"
+        android:ems="10"
+        android:background="@drawable/editable_shape"
+        android:hint="Dr contact no"
+        android:inputType="phone" />
+
+    <Spinner
+        android:id="@+id/spinner3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editText9"
+        android:layout_alignStart="@+id/editText9"
+        android:layout_alignEnd="@+id/editText9"
+        android:background="@drawable/editable_shape"
+        android:layout_marginTop="15dp" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/editText6"
+        android:layout_alignParentTop="true"
+        android:text="Register Doctor"
+        android:textColor="#fff"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+</RelativeLayout>

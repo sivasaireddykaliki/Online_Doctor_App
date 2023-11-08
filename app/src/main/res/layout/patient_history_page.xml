@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/backgroung">
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="All Patient Details"
+        android:textSize="22dp"
+        android:textColor="#fff"
+        android:layout_gravity="center"
+        android:textStyle="bold" />
+
+    <ListView
+        android:layout_width="match_parent"
+        android:id="@+id/datalist"
+        android:layout_height="530dp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Delete Patient"
+        android:onClick="delete"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:textSize="15sp"
+        android:background="@android:color/transparent"/>
+
+</LinearLayout>
+
+
+

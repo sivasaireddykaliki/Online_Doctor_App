@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroung">
+
+    <EditText
+        android:id="@+id/dueditText6"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="53dp"
+        android:ems="10"
+        android:background="@drawable/editable_shape"
+        android:hint="Doctor name"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/dueditText9"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_alignStart="@+id/dueditText6"
+        android:layout_below="@+id/dueditText6"
+        android:layout_marginTop="15dp"
+        android:ems="10"
+        android:background="@drawable/editable_shape"
+        android:hint="Degree"
+        android:inputType="textPersonName" />
+
+    <!--<EditText
+        android:id="@+id/editText10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/editText9"
+        android:layout_below="@+id/editText9"
+        android:ems="10"
+        android:hint="Specialization"
+        android:inputType="textPersonName" />
+-->
+    <Button
+        android:id="@+id/dubutton6"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="39dp"
+        android:background="@android:color/background_dark"
+        android:onClick="save"
+        android:text="Save"
+        android:textColor="#FFFFFF" />
+
+    <EditText
+        android:id="@+id/dueditText11"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_alignStart="@+id/dueditText12"
+        android:layout_below="@+id/duspinner3"
+        android:layout_marginTop="18dp"
+        android:ems="10"
+        android:background="@drawable/editable_shape"
+        android:hint=" dr email"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/dueditText12"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_below="@+id/dueditText11"
+        android:layout_centerHorizontal="true"
+        android:ems="10"
+        android:layout_marginTop="10dp"
+        android:maxLength="10"
+        android:background="@drawable/editable_shape"
+        android:hint="Dr contact no"
+        android:inputType="phone" />
+
+    <Spinner
+        android:id="@+id/duspinner3"
+        android:layout_width="210dp"
+        android:background="@drawable/editable_shape"
+        android:layout_height="35dp"
+        android:layout_alignStart="@+id/dueditText9"
+        android:layout_below="@+id/dueditText9"
+        android:layout_marginTop="17dp" />
+
+    <TextView
+        android:id="@+id/dutextView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/dueditText6"
+        android:text="Register Doctor"
+        android:textColor="#fff"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

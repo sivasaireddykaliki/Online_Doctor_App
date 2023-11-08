@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">OnlineDoctorAppointment</string>
+    <string name="get_password">Get Password</string>
+
+    <string-array name="Disease_Type">
+        <item>Heart-attack</item>
+        <item>sun-stock</item>
+        <item>Burn</item>
+        <item>First_aid</item>
+        <item>Communicable disease</item>
+        <item>Cancer</item>
+    </string-array>
+
+    <string-array name="Specaility">
+        <item>Cardiologists </item>
+        <item>Oncologist</item>
+        <item>Obstetrician</item>
+        <item>Gastroenterologists</item>
+        <item>Radiologists</item>
+        <item>Hematology</item>
+        <item>Pulmonology</item>
+        <item>Endocrinologists</item>
+        <item>Gynecologist</item>
+        <item>Dermatologists</item>
+        <item>Nephrologists</item>
+        <item>Neurologists</item>
+    </string-array>
+
+    <string-array name="amount">
+        <item>Select Amount</item>
+        <item>300</item>
+        <item>400</item>
+        <item>500</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/backgroung">
+
+        <Button
+            android:id="@+id/button21"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:onClick="patientHistory"
+            android:text="See Patient History"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:textSize="15sp"
+            android:background="@android:color/transparent"/>
+
+        <Button
+            android:id="@+id/button23"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:onClick="updateDetail"
+            android:text="Update Doctore Detail"
+            android:textColor="#fff"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:background="@android:color/transparent"/>
+
+</LinearLayout>
+
+

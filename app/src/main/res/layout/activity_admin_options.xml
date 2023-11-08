@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/backgroung"
+    android:gravity="center"
+    tools:context=".AdminOptionsActivity">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Doctor Details"
+        android:background="@android:color/transparent"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:fontFamily="serif-monospace"
+        android:onClick="adddoctore"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="View User Details"
+        android:background="@android:color/transparent"
+        android:textColor="#fff"
+        android:layout_marginTop="20dp"
+        android:textSize="20sp"
+        android:fontFamily="serif-monospace"
+        android:textStyle="bold"
+        android:onClick="userdetails"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="View Doctor Details"
+        android:background="@android:color/transparent"
+        android:textColor="#fff"
+        android:textSize="20sp"
+        android:fontFamily="serif-monospace"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"
+        android:onClick="Doctordetails"/>
+
+
+</LinearLayout>
